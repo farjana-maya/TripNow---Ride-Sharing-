@@ -1,0 +1,11 @@
+- [ ] Create migration to add username column to users table
+- [ ] Update User model to include username in fillable and set auth identifier
+- [ ] Modify AuthController register: add username validation, prevent 'admin', change role to user/driver
+- [ ] Modify AuthController login: use username instead of email
+- [ ] Update UserSeeder: set admin username 'admin', password 'admin123'
+- [ ] Update Register.jsx: add username field, remove admin role, update validation
+- [ ] Update Login.jsx: change email to username
+- [ ] Update apiService if needed
+- [ ] Run migration
+- [ ] Run seeder
+- [ ] Test admin login and signup prevention
